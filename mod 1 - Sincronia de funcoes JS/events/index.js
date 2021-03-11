@@ -21,7 +21,7 @@ function main() {
 }
 
 main().then(function (resultado) {
-    console.log('resultado', resultado)
+    console.log('resultado', resultado.toString())
 })
 
 // meuEmissor.emit(nomeEvento, 'na barra de rolagem')
